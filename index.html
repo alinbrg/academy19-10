@@ -6,17 +6,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>lesson 10</title>
+		<link
+			rel="shortcut icon"
+			href="images//logo-onge-color.svg"
+			type="image/x-icon"
+		/>
 
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- seo meta tags -->
 		<meta name="keywords" content="travel" />
 		<meta name="description" content="this website is about travel" />
 		<meta name="author" content="Alina Bregvadze" />
 
+		<!-- facebook meta tags -->
 		<meta property="og:url" content="https://alinbrg.github.io/academy19-10/" />
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="When Great Minds Don’t Think Alike" />
 		<meta property="og:description" content="this website is about travel" />
 		<meta property="og:image" content="images/img2.jpeg" />
 
+		<!-- twitter meta tags -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content="Parade of Fans for Houston’s Funeral" />
 		<meta name="twitter:description" content="this website is about travel" />
@@ -25,6 +35,112 @@
 
 	<body>
 		<section>
+			<h1>form</h1>
+			<form>
+				<!-- <label for="">
+					name <input type="text" placeholder="enter your name" />
+				</label> -->
+				<div>
+					<label for="user-name"> name </label>
+					<input
+						id="user-name"
+						type="text"
+						placeholder="enter your name"
+						name="user-name"
+					/>
+				</div>
+
+				<div>
+					<label for="user-email"> email </label>
+					<input
+						id="user-email"
+						type="email"
+						placeholder="enter your email"
+						name="user-email"
+					/>
+				</div>
+
+				<div>
+					<label for="user-password"> password </label>
+					<input
+						id="user-password"
+						type="password"
+						placeholder="enter your password"
+					/>
+				</div>
+
+				<div>
+					<label for="user-id"> id </label>
+					<input
+						id="user-id"
+						type="number"
+						placeholder="enter your id number"
+					/>
+				</div>
+
+				<div>
+					<label for="user-file"> file </label>
+					<input id="user-file" type="file" placeholder="upload file" />
+				</div>
+
+				<div>
+					<label for="user-date"> date </label>
+					<input
+						id="user-date"
+						type="date"
+						placeholder="enter your birthday  "
+					/>
+				</div>
+
+				<div>
+					<input id="user-agree" type="checkbox" />
+					<label for="user-agree"> agree on terms and conditions </label>
+				</div>
+				<div>
+					<input id="user-read" type="checkbox" />
+					<label for="user-read"> read on terms and conditions </label>
+				</div>
+
+				<div>
+					<input type="radio" name="gender" id="male" />
+					<label for="male">male</label>
+
+					<input type="radio" name="gender" id="female" />
+					<label for="female">female</label>
+
+					<input type="radio" name="gender" id="other" />
+					<label for="other">other</label>
+				</div>
+
+				<div>
+					<select name="city" id="city">
+						<option value="Tbilisi">Tbilisi</option>
+						<option value="Kutaisi">Kutaisi</option>
+						<option value="Batumi">Batumi</option>
+					</select>
+				</div>
+
+				<div>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</div>
+
+				<button>submit</button>
+			</form>
+		</section>
+
+		<div class="footer">
+			<div>
+				<span>made</span>
+			</div>
+			<div>
+				<span>დამზადებულია</span>
+				<img src="" alt="" />
+				<span>-ით</span>
+				<img src="" alt="" />
+			</div>
+		</div>
+
+		<!-- <section>
 			<h1>lesson 10</h1>
 			<img src="images/img1.jpg" alt="house in the snow" />
 			<p>
@@ -44,6 +160,6 @@
 				ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის
 				გამო, ზოგი კი — განზრახ, ხუმრობით.
 			</p>
-		</section>
+		</section> -->
 	</body>
 </html>
